@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine:latest
 MAINTAINER fbotha@stratuscloud.co.za
 RUN apk update
 RUN apk add openntpd
